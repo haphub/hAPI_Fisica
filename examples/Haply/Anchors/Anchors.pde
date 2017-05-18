@@ -67,7 +67,7 @@ void setup() {
   size(400, 320);
   
   /* BOARD */
-  haply_board = new Board(this, Serial.list()[0], 0);
+  haply_board = new Board(this, Serial.list()[1], 0);
 
   /* DEVICE */
   haply_2DoF = new Device(degreesOfFreedom.HaplyTwoDOF, deviceID, haply_board);

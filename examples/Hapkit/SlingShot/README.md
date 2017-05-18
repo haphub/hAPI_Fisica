@@ -1,0 +1,2 @@
+# Slingshot
+This is a game that gives you 60 seconds to hit as many targets as you can. When the game starts you can click the mouse button and pull down on the string. A sling shot ammo will enter the game. By pulling down on the elastic you can line up your shot and let it fly. 

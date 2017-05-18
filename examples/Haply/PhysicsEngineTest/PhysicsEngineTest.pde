@@ -53,7 +53,7 @@ void setup() {
   size(640, 400); // (worldWidth*pixelsPerCentimeter, worldHeight*pixelsPerCentimeter) must input as number
 
   /* BOARD */
-  haply_board = new Board(this, "COM5", 0);
+  haply_board = new Board(this, "COM10", 0); //Put your COM# port here
 
   /* DEVICE */
   haply_2DoF = new Device(degreesOfFreedom.HaplyTwoDOF, deviceID, haply_board);
